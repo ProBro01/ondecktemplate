@@ -1,0 +1,33 @@
+.card__cont{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 0.9rem;
+    background-color: white;
+    padding: 40px;
+}
+
+.card__element{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.card__element-head{
+    font-weight: bold;
+    color: black;
+}
+
+.card__close-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .card__cont{
+        width: 70%;
+    }
+}

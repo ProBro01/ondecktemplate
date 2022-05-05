@@ -1,0 +1,30 @@
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__image-cont{
+    margin: 2em 0;
+    display: flex;
+    column-gap: 3em;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {    
+    
+    .footer__image-cont{
+        justify-content: center;
+    }
+    
+    .footer__image{
+        width: 35%;
+    }
+
+    .footer__quote{
+        font-size: 0.7rem;
+    }
+
+}
